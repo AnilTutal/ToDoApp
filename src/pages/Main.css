@@ -1,0 +1,148 @@
+body {
+    background-color: rgba(100, 148, 237, 0.153);
+}
+
+.main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 80px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+h2 {
+    margin: 50px 0 20px;
+}
+
+.up {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;  
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 90%;
+}
+
+.up_u {
+    display: flex;
+    flex-direction: row;
+}
+
+.up_icon {
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.up_inut {
+    padding: 10px;
+    width: 100%;
+}
+
+.up_button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+
+.up_button:hover {
+    background-color: rgb(48, 104, 208);
+}
+
+.middle_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.m_b:hover {
+    background-color: rgb(48, 104, 208);
+}
+
+.m_b {
+    width: 32%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 0;
+    border-radius: 5px;  
+    transition: 0.2s ease;
+}
+
+.list {
+    width: 90%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.l_element {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;  
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    list-style: none;
+    margin-top: 10px;
+}
+
+.l_e_span {
+    padding: 10px;
+}
+
+.l_e_div {
+    padding: 10px 20px 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.l_e_cb {
+    width: 18px;
+}
+
+.l_e_but {
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    transition: 0.2s ease;
+}
+
+.l_e_but:hover {
+    color: rgb(48, 104, 208);
+}
+
+.down_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.d_b:hover{
+    background-color: rgb(97, 4, 4);
+}
+
+.d_b {
+    width: 48%;
+    padding: 10px;
+    background-color: rgba(232, 5, 5, 0.944);
+    color: white;
+    border: 0;
+    border-radius: 5px; 
+    transition: 0.2s ease;
+}
