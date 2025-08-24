@@ -1,3 +1,7 @@
+İlk önce terminalde çalıştırın "npm start" komutunu çalıştırın sonra "npm start" ile uygulama çalışacak.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
